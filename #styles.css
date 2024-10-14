@@ -1,38 +1,60 @@
 body {
-
+    color: rgb(250, 7, 7);
+    background: rgb(243, 119, 3);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
-body {
-    color: rgb(231, 78, 78);
+
+header {
+    border-bottom: solid 2px rgb(30, 104, 79);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(136, 38, 87);
 }
-body {
-    color: rgb(213, 81, 81);
-    background: black;
+
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
-<head>
 
-</head>
+.chamada-texto {
+    margin-right: 5%;
+}
 
-<body>
-    <header>ALURAFLIX</header>
-    <h1>Batismo nas águas | PR. FÁBIO COUTINHO| 19:30Hs | 31.08.24</h1>
-    <p>#meubatismo</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/live/Tm-OghABJ8s?si=SA49vop1-cUyP0v4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+h1 {
+    font-size: 40px;
+}
 
-    </body>
-    <head>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<head>
-<link rel="stylesheet" href="styles.css">
-<title>Aluraflix</title>
-</head>
-<div>
-<h1>Batismo nas águas | PR. FÁBIO COUTINHO| 19:30Hs | 31.08.24</h1>
-<p>#meubatismo</p>
-</div>
-<div>
-<iframe width="560" height="315" src="https://www.youtube.com/live/Tm-OghABJ8s?si=fFBEB2H9UbunsE33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+p {
+    font-size: 20px;
+}
 
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
 
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
 
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(21, 116, 116);
+}
