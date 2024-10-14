@@ -1,0 +1,38 @@
+body {
+
+}
+body {
+    color: white;
+}
+body {
+    color: white;
+    background: black;
+}
+<head>
+
+</head>
+
+<body>
+    <header>ALURAFLIX</header>
+    <h1>Batismo nas águas | PR. FÁBIO COUTINHO| 19:30Hs | 31.08.24</h1>
+    <p>#meubatismo</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/live/Tm-OghABJ8s?si=SA49vop1-cUyP0v4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </body>
+    <head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>Aluraflix</title>
+</head>
+<div>
+<h1>Batismo nas águas | PR. FÁBIO COUTINHO| 19:30Hs | 31.08.24</h1>
+<p>#meubatismo</p>
+</div>
+<div>
+<iframe width="560" height="315" src="https://www.youtube.com/live/Tm-OghABJ8s?si=fFBEB2H9UbunsE33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+
